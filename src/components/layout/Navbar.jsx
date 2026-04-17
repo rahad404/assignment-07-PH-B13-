@@ -22,8 +22,8 @@ export default function Navbar() {
           
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="font-bold text-2xl tracking-tight text-[#1E3E31]">
-              KeenKeeper
+            <span className="font-bold text-2xl tracking-tight text-[#326450]">
+              <span className="text-gray-800">Keen</span>Keeper
             </span>
           </Link>
 
