@@ -17,7 +17,16 @@ export default function QuickCheckIn({ friend }) {
       friendName: friend.name
     }
     addEntry(entry)
-    toast.success(`${type} logged successfully! ✅`)
+
+    const toastStyles = {
+      Call: { background: '#16A34A', color: '#FFFFFF' },
+      Text: { background: '#F59E0B', color: '#1F2937' },
+      Video: { background: '#2563EB', color: '#FFFFFF' },
+    }
+
+    toast.success(`${type} logged successfully! ✅`, {
+      style: toastStyles[type] || { background: '#1F2937', color: '#FFFFFF' },
+    })
   }
 
   // Reusable sub-component to keep the JSX clean
