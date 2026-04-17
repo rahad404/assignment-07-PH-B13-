@@ -1,5 +1,5 @@
-import React from 'react';
-
+// import { Youtube, Facebook, Twitter } from 'lucide-react'
+import { Video, MessageSquare, Send } from 'lucide-react'
 const Footer = () => {
   return (
     <footer className="bg-[#1E3E31] text-white py-16 px-6">
@@ -19,15 +19,14 @@ const Footer = () => {
             Social Links
           </span>
           <div className="flex gap-4">
-            {/* Using daisyUI btn-circle for the rounded look */}
-            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10">
-              <i className="fa-brands fa-youtube text-lg"></i>
+            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10 flex items-center justify-center">
+              <Video className="h-5 w-5" />
             </a>
-            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10">
-              <i className="fa-brands fa-facebook-f text-lg"></i>
+            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10 flex items-center justify-center">
+              <MessageSquare className="h-5 w-5" />
             </a>
-            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10">
-              <i className="fa-brands fa-x-twitter text-lg"></i>
+            <a href="#" className="btn btn-circle btn-ghost bg-white text-[#1E3E31] hover:bg-gray-200 border-none min-h-0 w-10 h-10 flex items-center justify-center">
+              <Send className="h-5 w-5" />
             </a>
           </div>
         </div>

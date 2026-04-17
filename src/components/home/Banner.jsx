@@ -9,8 +9,8 @@ export default function Banner() {
       <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
         Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />relationships that matter most.
       </p>
-      <button className="btn-primary mx-auto bg-[#244D3F]">
-        <UserPlus className="h-5 w-5" />
+      <button className="btn-primary flex gap-2 font-bold rounded-sm text-amber-50 px-5 py-3 mx-auto bg-[#244D3F]">
+        <UserPlus className="h-5 w-5 text-amber-50" />
         Add a Friend
       </button>
     </div>

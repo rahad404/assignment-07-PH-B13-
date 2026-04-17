@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           <Footer />
-          <Toaster position="top-right" />
+          <Toaster position="top-center" />
         </TimelineProvider>
       </body>
     </html>

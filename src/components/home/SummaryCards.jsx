@@ -14,7 +14,7 @@ export default function SummaryCards({ friends }) {
   ]
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 mx-auto">
       {cards.map((card, index) => {
         const Icon = card.icon
         const colorClasses = {
@@ -24,14 +24,11 @@ export default function SummaryCards({ friends }) {
           green: 'bg-green-100 text-green-600',
         }
         return (
-          <div key={index} className="card p-6">
+          <div key={index} className="card p-6 shadow-lg flex items-center justify-center bg-white border border-slate-100">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-gray-500 text-sm">{card.title}</p>
-                <p className="text-3xl font-bold text-gray-800 mt-1">{card.value}</p>
-              </div>
-              <div className={`p-3 rounded-full ${colorClasses[card.color]}`}>
-                <Icon className="h-6 w-6" />
+                <p className="text-3xl text-center font-bold text-gray-800 mt-1">{card.value}</p>
+                <p className="text-gray-500 text-center text-sm">{card.title}</p>
               </div>
             </div>
           </div>

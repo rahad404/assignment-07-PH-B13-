@@ -24,8 +24,8 @@ export default function HomePage() {
 
   return (
     <div className="container mx-auto py-8">
-      {/* <Banner /> */}
-      {/* <SummaryCards friends={friends} /> */}
+      <Banner />
+      <SummaryCards friends={friends} />
       
       <h2 className="text-2xl font-bold text-gray-800 mt-12 mb-6">
         Your Friends
