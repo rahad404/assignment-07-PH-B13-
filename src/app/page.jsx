@@ -31,11 +31,11 @@ export default function HomePage() {
         Your Friends
       </h2>
       
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {friends.map((friend) => (
           <FriendCard key={friend.id} friend={friend} />
         ))}
-      </div> */}
+      </div>
     </div>
   )
 }
