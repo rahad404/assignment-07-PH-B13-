@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Anika Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "anika.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman year at BUET. We used to pull all-nighters for exams together. She's now a software engineer in Dhaka.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Rafiul Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "rafiul.hasan@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My senior at the office who helped me land my first real project. We grab lunch every couple of weeks to catch up.",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 3,
+    "name": "Tasnim Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "tasnim.jahan@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["childhood", "close friend"],
+    "bio": "We grew up on the same street in Sylhet. Even though she moved to Chittagong, we still talk regularly and visit during Eid.",
+    "goal": 12,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 4,
+    "name": "Mehedi Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "mehedi.hossain@proton.me",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["college", "travel buddy"],
+    "bio": "My go-to travel partner from university. We backpacked through Cox's Bazar and the Sundarbans together. Haven't caught up in a while.",
+    "goal": 21,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 5,
+    "name": "Nusrat Faria",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "nusrat.faria@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "team"],
+    "bio": "A colleague from my current team. We collaborate daily and often brainstorm ideas over tea after standups.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 6,
+    "name": "Sabbir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+    "email": "sabbir.ahmed@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "Best friend from high school in Rajshahi. We lost touch after he moved abroad for his masters but I really want to reconnect.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 7,
+    "name": "Lamia Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "lamia.sultana@icloud.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["college", "study group"],
+    "bio": "We were in the same study group for three years. She's super sharp and always kept us motivated during finals week.",
+    "goal": 10,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Zarif Khan",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "zarif.khan@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["gym", "hobby"],
+    "bio": "We met at the gym two years ago and now work out together almost every week. He got me into strength training seriously.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 9,
+    "name": "Priya Chakraborty",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "priya.chakraborty@gmail.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["neighbor", "close friend"],
+    "bio": "My neighbor for six years before she shifted to Mirpur. We share a love for cooking and often exchange recipes over the phone.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 10,
+    "name": "Tanvir Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+    "email": "tanvir.hossain@outlook.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "mentor", "college"],
+    "bio": "A senior I met at a tech event who later became a close mentor. He reviews my side projects and gives brutally honest feedback.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  }
+]
